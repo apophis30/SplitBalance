@@ -1,7 +1,7 @@
 const { type } = require("express/lib/response");
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://kaman:iitrY2025@cluster0.pugofh3.mongodb.net/')
+mongoose.connect('YOUR_MONGO_DB_INSTANCE')
 .then(() => console.log('Connected !'));
 
 // User Schema
